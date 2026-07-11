@@ -36,8 +36,7 @@ The pipeline is orchestrated as 5 Dagster software-defined assets showing full d
 ---
 
 ## Architecture
-
-'''
+```
 Every trading day at 8:00 AM ET
 ↓
 ┌─────────────────────────┐
@@ -66,8 +65,7 @@ Every trading day at 8:00 AM ET
 │  openbell_dashboard     │  6-panel dark-theme visual analytics
 │  dashboard/             │  Prices · RSI · Momentum · Signals · Confidence
 └─────────────────────────┘
-
-'''
+```
 
 ---
 
@@ -141,7 +139,7 @@ python3 scheduler/morning_bell.py
 ---
 
 ## Project Structure
-'''
+```
 openbell/
 ├── pipeline/
 │   ├── fetch_data.py              # Yahoo Finance ingestion
@@ -162,7 +160,7 @@ openbell/
 │   ├── lineage.png                # Dagster asset lineage screenshot
 │   └── dashboard.png              # Analytics dashboard
 └── workspace.yaml                 # Dagster workspace config
-'''
+```
 
 ---
 
