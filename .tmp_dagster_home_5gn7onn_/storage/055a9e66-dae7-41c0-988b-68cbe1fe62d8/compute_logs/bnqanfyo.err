@@ -1,0 +1,7 @@
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - LOGS_CAPTURED - Capturing logs for process (pid: 16831).
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - technical_indicators - STEP_START - Started execution of step "technical_indicators".
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - technical_indicators - STEP_OUTPUT - Yielded output "result" of type "dict". (Type check passed).
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - technical_indicators - Writing file at: /Users/saksh/Documents/openbell/.tmp_dagster_home_5gn7onn_/storage/technical_indicators using PickledObjectFilesystemIOManager...
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - technical_indicators - ASSET_MATERIALIZATION - Materialized value technical_indicators.
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - technical_indicators - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-07-11 19:27:16 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16831 - technical_indicators - STEP_SUCCESS - Finished execution of step "technical_indicators" in 117ms.

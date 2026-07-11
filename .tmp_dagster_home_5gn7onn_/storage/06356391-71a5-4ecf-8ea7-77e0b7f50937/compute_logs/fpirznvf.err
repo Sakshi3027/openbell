@@ -1,0 +1,11 @@
+[32m2026-07-11 19:20:48 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - LOGS_CAPTURED - Capturing logs for process (pid: 16720).
+[32m2026-07-11 19:20:48 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - openbell_dashboard - STEP_START - Started execution of step "openbell_dashboard".
+/Users/saksh/Documents/openbell/dashboard/openbell_dashboard.py:160: UserWarning: Glyph 128276 (\N{BELL}) missing from font(s) DejaVu Sans.
+  plt.savefig("docs/dashboard.png", dpi=150, bbox_inches="tight",
+/Users/saksh/Documents/openbell/dashboard/openbell_dashboard.py:163: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+[32m2026-07-11 19:20:49 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - openbell_dashboard - STEP_OUTPUT - Yielded output "result" of type "String". (Type check passed).
+[32m2026-07-11 19:20:49 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - openbell_dashboard - Writing file at: /Users/saksh/Documents/openbell/.tmp_dagster_home_5gn7onn_/storage/openbell_dashboard using PickledObjectFilesystemIOManager...
+[32m2026-07-11 19:20:49 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - openbell_dashboard - ASSET_MATERIALIZATION - Materialized value openbell_dashboard.
+[32m2026-07-11 19:20:49 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - openbell_dashboard - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-07-11 19:20:49 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 06356391-71a5-4ecf-8ea7-77e0b7f50937 - 16720 - openbell_dashboard - STEP_SUCCESS - Finished execution of step "openbell_dashboard" in 618ms.

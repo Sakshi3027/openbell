@@ -1,0 +1,35 @@
+
+⚡ OpenBell MapReduce — Technical Indicators
+==================================================
+  📂 Loaded AAPL: 501 rows
+  📂 Loaded TSLA: 501 rows
+  📂 Loaded NVDA: 501 rows
+  📂 Loaded GOOGL: 501 rows
+  📂 Loaded MSFT: 501 rows
+  📂 Loaded AMZN: 501 rows
+  📂 Loaded META: 501 rows
+
+🗺️  MAP phase: computing indicators...
+  ✅ AAPL: RSI=61.9
+  ✅ TSLA: RSI=52.0
+  ✅ NVDA: RSI=50.3
+  ✅ GOOGL: RSI=42.5
+  ✅ MSFT: RSI=52.9
+  ✅ AMZN: RSI=50.9
+  ✅ META: RSI=68.7
+
+🔀 REDUCE phase: generating signals...
+
+🔔 OpenBell Pre-Market Signals
+============================================================
+Stock       Price Signal           Conf    RSI   Mom7d
+------------------------------------------------------------
+AAPL     $ 315.32 HOLD              50%   61.9    9.0%
+TSLA     $ 407.76 SELL              60%   52.0   -3.0%
+NVDA     $ 210.96 HOLD              50%   50.3    5.4%
+GOOGL    $ 357.18 HOLD              50%   42.5   -0.1%
+MSFT     $ 385.10 SELL              60%   52.9    3.2%
+AMZN     $ 245.34 HOLD              50%   50.9    2.9%
+META     $ 669.21 SELL              65%   68.7   18.8%
+
+✅ MapReduce complete! Signals saved to data/processed/signals.json

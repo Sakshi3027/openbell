@@ -1,0 +1,7 @@
+[32m2026-07-11 19:27:13 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - LOGS_CAPTURED - Capturing logs for process (pid: 16821).
+[32m2026-07-11 19:27:13 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - raw_stock_data - STEP_START - Started execution of step "raw_stock_data".
+[32m2026-07-11 19:27:14 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - raw_stock_data - STEP_OUTPUT - Yielded output "result" of type "dict". (Type check passed).
+[32m2026-07-11 19:27:14 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - raw_stock_data - Writing file at: /Users/saksh/Documents/openbell/.tmp_dagster_home_5gn7onn_/storage/raw_stock_data using PickledObjectFilesystemIOManager...
+[32m2026-07-11 19:27:14 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - raw_stock_data - ASSET_MATERIALIZATION - Materialized value raw_stock_data.
+[32m2026-07-11 19:27:14 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - raw_stock_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-07-11 19:27:14 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 055a9e66-dae7-41c0-988b-68cbe1fe62d8 - 16821 - raw_stock_data - STEP_SUCCESS - Finished execution of step "raw_stock_data" in 1.21s.
