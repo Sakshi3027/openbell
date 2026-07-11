@@ -7,3 +7,4 @@ data/processed/
 .env
 venv/
 *.log
+.tmp_dagster_home*/
