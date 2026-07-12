@@ -204,6 +204,9 @@ openbell/
 ```
 ---
 
+**Live Demo:** https://openbell.vercel.app  
+**Backend API:** https://openbell-api.onrender.com  
+
 Built by [Sakshi Chavan](https://github.com/Sakshi3027) · MS Data Science
 AI Engineer · Data Engineer · RAG systems · Distributed pipelines · Actively interviewing
 
