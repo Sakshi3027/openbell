@@ -17,11 +17,15 @@ OpenBell fetches real stock data, stores it in **Hadoop HDFS**, runs **real Hado
 
 ## Global Asset Lineage (Dagster)
 
+The pipeline is orchestrated as 5 Dagster software-defined assets. Each node represents a step in the data flow from raw Yahoo Finance data all the way to the final dashboard. Green nodes indicate successful materialization. The lineage view makes it instantly clear how data moves through the system.
+
 ![OpenBell Asset Lineage](docs/lineage.png)
 
 ---
 
 ## Analytics Dashboard
+
+6-panel dark-theme dashboard generated from real Hadoop MapReduce output. Shows current prices with signal color coding (green = BUY, yellow = HOLD, red = SELL), predicted next-day price change, RSI values with overbought/oversold thresholds, signal distribution across the portfolio, confidence scores, and 7-day momentum. META's +18.8% momentum and AAPL's BUY signal are the standout insights from this run.
 
 ![OpenBell Dashboard](docs/dashboard.png)
 
